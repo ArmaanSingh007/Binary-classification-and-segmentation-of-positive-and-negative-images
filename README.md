@@ -2,6 +2,10 @@ Disclaimer: https://github.com/ArmaanSingh007/Binary-classification-and-segmenta
 
 For dataset: Please download it from this link ' https://www.kaggle.com/datasets/arnavr10880/concrete-crack-images-for-classification '.
 
+Important note: When we run data in python it take too much time (Without using any hardware like GPU or external GPUs) to run and didn't show the output while doing task-1 because of huge data(images), so we need to trained our data through GPU (CUDA-GTX 1660 TI WITH MAX-Q DESIGN).we classified image by two method Resnet and Alexnet in which Resnet turns to be the great choice among them but have high computational cost.
+
+For dataset: Please download it from this link ' https://www.kaggle.com/datasets/arnavr10880/concrete-crack-images-for-classification '( In case you have some problem for dataset).
+
 Goal: The main goal of this task is to develop a comprehensive pipeline that starts with binary classification of images to identify those containing cracks, and then moves on to segment that identified cracks. The pipeline should leverage machine learning for classification and unsupervised methods for segmentation, with an emphasis on improving accuracy and reliability through feature extraction, misclassification cleanup, and thorough evaluation.
 
 Subtask:
