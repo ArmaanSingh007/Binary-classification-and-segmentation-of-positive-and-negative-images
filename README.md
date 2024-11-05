@@ -1,0 +1,20 @@
+Goal: The main goal of this task is to develop a comprehensive pipeline that starts with binary classification of images to identify those containing cracks, and then moves on to segment that identified cracks. The pipeline should leverage machine learning for classification and unsupervised methods for segmentation, with an emphasis on improving accuracy and reliability through feature extraction, misclassification cleanup, and thorough evaluation.
+
+Subtask:
+
+   a)Data Loader for Images:
+     The goal is to create a robust data loading mechanism that can efficiently handle image data. This involves reading image files, preprocessing them (e.g., resizing, normalization), and preparing them for training a machine learning model.
+
+  b)Binary Image Classification:
+    Develop a deep learning model to classify images into two categories: images that contain cracks (positive class) and those that do not (negative class). The goal is to accurately distinguish between these two classes.
+
+  c)Feature Extraction to Improve Model Performance:
+    Extract meaningful features from the images to enhance the classification model's performance. This can involve techniques like using pre-trained models (transfer learning), applying convolutional layers to learn spatial features, or using traditional image processing methods to highlight relevant features.
+
+  d)Segmentation Workflow for Positive Images:
+    For images classified as containing cracks, develop a method to segment the cracks. This involves isolating the regions in the image that correspond to cracks, possibly using methods like thresholding, edge detection, or deep learning-based segmentation models.
+
+Conclusion: ResNet-18 is generally the better choice for crack detection and segmentation, especially on larger and more complex datasets due to its superior feature extraction capabilities and ability to train very deep networks effectively.
+            AlexNet is generally the better choice for crack detection and segmentation, especially on larger and more complex datasets due to its superior feature extraction capabilities and ability to train very deep networks effectively.
+
+
