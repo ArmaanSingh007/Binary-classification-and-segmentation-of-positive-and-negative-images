@@ -1,3 +1,7 @@
+Disclaimer: https://github.com/ArmaanSingh007/Binary-classification-and-segmentation-of-positive-and-negative-images © 2024 by Armaan Singh, Kintur raja is licensed under Creative Commons Attribution 4.0 International .
+
+For dataset: Please download it from this link ' https://www.kaggle.com/datasets/arnavr10880/concrete-crack-images-for-classification '( In case you have some problem for dataset).
+
 Goal: The main goal of this task is to develop a comprehensive pipeline that starts with binary classification of images to identify those containing cracks, and then moves on to segment that identified cracks. The pipeline should leverage machine learning for classification and unsupervised methods for segmentation, with an emphasis on improving accuracy and reliability through feature extraction, misclassification cleanup, and thorough evaluation.
 
 Subtask:
