@@ -21,7 +21,7 @@ def is_image_file(filename):
 
 # Define the dataset class
 class CrackDataset(Dataset):
-    def __init__(self, positive_dir, negative_dir, transform=None, max_images=80000):
+    def __init__(self, positive_dir, negative_dir, transform=None, max_images=20000):
         self.positive_dir = positive_dir
         self.negative_dir = negative_dir
         self.transform = transform
@@ -65,11 +65,11 @@ class CrackDataset(Dataset):
 
         return image, label, img_path
 
-# Define paths with corrected and verified directory paths
-train_positive_dir = r'C:\Users\Armaan\OneDrive\Desktop\Projecttask1\Data\training data\test\Positive'
-train_negative_dir = r'C:\Users\Armaan\OneDrive\Desktop\Projecttask1\Data\training data\test\Negative'
-val_positive_dir = r'C:\Users\Armaan\OneDrive\Desktop\Projecttask1\Data\Valiadation data\valid\Positive'
-val_negative_dir = r'C:\Users\Armaan\OneDrive\Desktop\Projecttask1\Data\Valiadation data\valid\Negative'
+# Define paths with corrected and verified directory paths (your file path)
+train_positive_dir = r' '
+train_negative_dir = r' '
+val_positive_dir = r' '
+val_negative_dir = r''
 
 # Define transforms
 transform = transforms.Compose([
