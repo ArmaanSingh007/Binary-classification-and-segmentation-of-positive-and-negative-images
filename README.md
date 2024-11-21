@@ -2,7 +2,7 @@ Disclaimer: https://github.com/ArmaanSingh007/Binary-classification-and-segmenta
 
 For dataset: Please download it from this link ' https://www.kaggle.com/datasets/arnavr10880/concrete-crack-images-for-classification '.
 
-Important note: When we run data in python it take too much time (Without using any hardware like GPU or external GPUs) to run and didn't show the output while doing task-1 because of huge data(images), so we need to trained our data through GPU (CUDA-GTX 1660 TI WITH MAX-Q DESIGN).we classified image by two method Resnet and Alexnet in which Resnet turns to be the great choice among them but have high computational cost.
+Important note: When we run data in python it take too much time (Without using any hardware like GPU or external GPUs) to run and didn't show the output while doing task because of huge data(images), so we need to trained our data through GPU (CUDA-GTX 1660 TI WITH MAX-Q DESIGN).we classified image by two method Resnet and Alexnet in which Resnet turns to be the great choice among them but have high computational cost.
 
 For dataset: Please download it from this link ' https://www.kaggle.com/datasets/arnavr10880/concrete-crack-images-for-classification '( In case you have some problem for dataset).
 
